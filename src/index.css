@@ -1,0 +1,18 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    height: 100%;
+}
+
+body{
+
+    font-family: "Funnel Display", sans-serif;
+    height: fit-content;
+    background: rgb(0,0,0);
+    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(246,246,246,1) 100%);
+}
