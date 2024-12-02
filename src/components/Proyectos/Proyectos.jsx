@@ -3,7 +3,7 @@ import React from 'react'
 const Proyectos = () => {
     return(
         <section id='proyectos' className='grid grid-cols-10 gap-4 text-wrap'>
-            <div className='my-44 col-start-3 col-span-6'>
+            <div className='col-start-3 col-span-6'>
                 <div>
                     <header className='text-6xl'>Proyectos:</header>
                     <div className='grid grid-cols-3 content-center my-16 space-x-2'>
