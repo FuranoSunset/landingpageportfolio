@@ -5,7 +5,7 @@ const Encabezado = () => {
         <section className='flex justify-center mt-52'>
             <div>
                 <div>
-                    <header id='nombre' className='text-6xl'>Francisco Javier</header>
+                    <header id='nombre' className='text-6xl underline decoration-3'>Francisco Javier</header>
                     <p id='descripcion_corta' className='text-3xl'>Desarrollador Web</p>
                 </div>
             </div>

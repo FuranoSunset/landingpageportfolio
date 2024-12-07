@@ -2,7 +2,7 @@ import React from 'react'
 
 const Proyectos = () => {
     return(
-        <section id='proyectos' className='grid grid-cols-10 gap-4 text-wrap'>
+        <section id='proyectos' className='grid grid-cols-10 grid-rows-2 gap-4 text-wrap'>
             <div className='col-start-3 col-span-6'>
                 <div>
                     <header className='text-6xl'>Proyectos:</header>
