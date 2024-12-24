@@ -3,7 +3,7 @@ import React from 'react'
 
 const SobreMi = () => {
     return(
-        <section className='grid grid-cols-10 grid-rows-1 text-wrap' id='sobremi'>
+        <section className='grid grid-cols-10 grid-rows-1 text-center sm:text-left' id='sobremi'>
             <div className='my-28 col-start-3 col-span-6'>
                 <div>
                     <header id='sobremi' className='text-4xl'>Sobre Mi:</header>
@@ -14,7 +14,7 @@ const SobreMi = () => {
                 </div>
                 <div className='flex my-16'>
                     <header id='tecnologias' className='text-4xl indent-2'>Stack Tecnológico:</header>
-                    <div className='grid grid-cols-5 gap-x-3 gap-y-3 place-items-center my-28 md:autofill:'>
+                    <div className='grid grid-cols-5 gap-x-3 gap-y-3 place-items-center my-28 sm:flex-wrap'>
                         <img src='./reactlogo.png' alt="logo de react"/>
                         <img src='./phplogo.png' alt="logo de php"/>
                         <img src='./pythonlogo.png' alt="logo de python"/>

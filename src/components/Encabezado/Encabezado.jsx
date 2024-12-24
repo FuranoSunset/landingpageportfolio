@@ -2,7 +2,7 @@ import React from 'react'
 
 const Encabezado = () => {
     return(
-        <section className='flex justify-center mt-52'>
+        <section className='flex justify-center mt-52 sm:text-center'>
             <div>
                 <div>
                     <header id='nombre' className='text-6xl underline decoration-3'>Francisco Javier</header>
